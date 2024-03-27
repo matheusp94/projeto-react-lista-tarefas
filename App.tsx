@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { View, StyleSheet, SafeAreaView } from 'react-native';
 import CadastrarTarefa from './components/CadastrarTarefa';
-import ListaTarefas from './components/ListaTarefas';
+import ListaTarefas from './components/Listatarefas';
 import Tarefa from './components/Tarefa';
+
 
 interface TarefaItem {
   id: number;
